@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: paymentgateway-payatschedule
+  cloud:
+    config:
+      uri: http://10.248.56.41:8888
+

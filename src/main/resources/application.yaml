@@ -1,0 +1,9 @@
+server:
+  port: ${app.server.port.paymentgateway-payatschedule}
+  ssl:
+    enabled: true
+  servlet:
+    context-path: /paymentgateway-payatschedule
+
+
+
